@@ -26,7 +26,7 @@ public class UserService {
 
 	
 	@Autowired
-	private UserDao userMapper;
+	private UserDao userDao;
 	
 	/**
 	 * <b>Description:</b><br>
@@ -41,7 +41,7 @@ public class UserService {
 	 * @return
 	 */
 	public List<User> searchAll(){
-		List<User> list = userMapper.findAll();
+		List<User> list = userDao.findAll();
 		return list;
 	}
 }
