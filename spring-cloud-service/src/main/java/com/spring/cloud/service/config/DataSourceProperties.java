@@ -1,7 +1,5 @@
 package com.spring.cloud.service.config;
 
-import org.springframework.boot.context.properties.ConfigurationProperties;
-
 /**
  * <b>Description:</b><br>
  * <p>
@@ -13,7 +11,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * </p>
  * @author lizw
  */
-@ConfigurationProperties(prefix = DataSourceProperties.DS, ignoreUnknownFields = false)
+//@ConfigurationProperties(prefix = DataSourceProperties.DS, ignoreUnknownFields = false)
 public class DataSourceProperties {
 
 	//对应配置文件里的配置键
