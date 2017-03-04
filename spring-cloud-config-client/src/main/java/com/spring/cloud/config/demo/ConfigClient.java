@@ -1,4 +1,4 @@
-package com.spring.cloud.demo;
+package com.spring.cloud.config.demo;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
