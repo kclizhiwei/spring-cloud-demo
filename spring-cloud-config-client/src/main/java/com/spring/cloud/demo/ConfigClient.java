@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @SpringBootApplication
 @RefreshScope
-public class SampleController {
+public class ConfigClient {
 	
 	@Value("${mysqldb.datasource.url}")
 	private String url;
@@ -32,6 +32,6 @@ public class SampleController {
 	}
 	
 	public static void main(String[] args) {
-		SpringApplication.run(SampleController.class, "--server.port=8081");
+		SpringApplication.run(ConfigClient.class, "--server.port=8081");
 	}
 }
