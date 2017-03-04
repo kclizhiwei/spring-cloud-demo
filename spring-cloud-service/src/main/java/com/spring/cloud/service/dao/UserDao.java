@@ -1,6 +1,9 @@
 package com.spring.cloud.service.dao;
 
 import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
 import com.spring.cloud.service.model.User;
 
 /**
@@ -14,6 +17,7 @@ import com.spring.cloud.service.model.User;
  * </p>
  * @author lizw
  */
+@Repository("userDao")
 public interface UserDao {
 
 	/**
