@@ -5,7 +5,3 @@ spring:
       profile: dev,redis
       label: master
       uri: http://localhost:8888
-  application:
-    name: config-client
-  config:
-    name: config-server
